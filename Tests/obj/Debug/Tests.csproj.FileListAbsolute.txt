@@ -64,3 +64,6 @@ C:\Users\Nadia\Desktop\CarDealership\Tests\bin\Debug\System.Web.Http.WebHost.xml
 C:\Users\Nadia\Desktop\CarDealership\Tests\bin\Debug\System.Net.Http.Formatting.xml
 C:\Users\Nadia\Desktop\CarDealership\Tests\bin\Debug\Newtonsoft.Json.xml
 C:\Users\Nadia\Desktop\CarDealership\Tests\obj\Debug\Tests.csprojResolveAssemblyReference.cache
+C:\Users\Nadia\Desktop\Car Dealership\Tests\bin\Debug\Tests.exe.config
+C:\Users\Nadia\Desktop\Car Dealership\Tests\obj\Debug\Tests.exe
+C:\Users\Nadia\Desktop\Car Dealership\Tests\obj\Debug\Tests.pdb
