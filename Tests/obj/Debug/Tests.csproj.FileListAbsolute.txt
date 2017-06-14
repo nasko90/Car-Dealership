@@ -1,0 +1,66 @@
+D:\Проект Profi Credit\Car_Dealer\Tests\bin\Debug\Tests.exe.config
+D:\Проект Profi Credit\Car_Dealer\Tests\bin\Debug\ApplicationInsights.config
+D:\Проект Profi Credit\Car_Dealer\Tests\bin\Debug\roslyn\csc.exe
+D:\Проект Profi Credit\Car_Dealer\Tests\bin\Debug\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Проект Profi Credit\Car_Dealer\Tests\bin\Debug\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Проект Profi Credit\Car_Dealer\Tests\bin\Debug\roslyn\Microsoft.CodeAnalysis.dll
+D:\Проект Profi Credit\Car_Dealer\Tests\bin\Debug\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Проект Profi Credit\Car_Dealer\Tests\bin\Debug\roslyn\Microsoft.CSharp.Core.targets
+D:\Проект Profi Credit\Car_Dealer\Tests\bin\Debug\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Проект Profi Credit\Car_Dealer\Tests\bin\Debug\roslyn\System.Collections.Immutable.dll
+D:\Проект Profi Credit\Car_Dealer\Tests\bin\Debug\roslyn\System.Reflection.Metadata.dll
+D:\Проект Profi Credit\Car_Dealer\Tests\bin\Debug\roslyn\vbc.exe
+D:\Проект Profi Credit\Car_Dealer\Tests\bin\Debug\roslyn\VBCSCompiler.exe
+D:\Проект Profi Credit\Car_Dealer\Tests\bin\Debug\roslyn\VBCSCompiler.exe.config
+D:\Проект Profi Credit\Car_Dealer\Tests\bin\Debug\Tests.exe
+D:\Проект Profi Credit\Car_Dealer\Tests\bin\Debug\Tests.pdb
+D:\Проект Profi Credit\Car_Dealer\Tests\bin\Debug\CarDealership.dll
+D:\Проект Profi Credit\Car_Dealer\Tests\bin\Debug\System.Web.Http.dll
+D:\Проект Profi Credit\Car_Dealer\Tests\bin\Debug\System.Web.Http.WebHost.dll
+D:\Проект Profi Credit\Car_Dealer\Tests\bin\Debug\System.Net.Http.Formatting.dll
+D:\Проект Profi Credit\Car_Dealer\Tests\bin\Debug\Newtonsoft.Json.dll
+D:\Проект Profi Credit\Car_Dealer\Tests\bin\Debug\CarDealership.pdb
+D:\Проект Profi Credit\Car_Dealer\Tests\bin\Debug\EntityFramework.xml
+D:\Проект Profi Credit\Car_Dealer\Tests\bin\Debug\System.Web.Http.xml
+D:\Проект Profi Credit\Car_Dealer\Tests\bin\Debug\System.Web.Http.WebHost.xml
+D:\Проект Profi Credit\Car_Dealer\Tests\bin\Debug\System.Net.Http.Formatting.xml
+D:\Проект Profi Credit\Car_Dealer\Tests\bin\Debug\Newtonsoft.Json.xml
+D:\Проект Profi Credit\Car_Dealer\Tests\obj\Debug\Tests.csprojResolveAssemblyReference.cache
+D:\Проект Profi Credit\Car_Dealer\Tests\obj\Debug\Tests.exe
+D:\Проект Profi Credit\Car_Dealer\Tests\obj\Debug\Tests.pdb
+D:\Проект Profi Credit\Car_Dealer\Tests\bin\Debug\EntityFramework.dll
+D:\Проект Profi Credit\Car_Dealer\Tests\bin\Debug\EntityFramework.SqlServer.dll
+D:\Проект Profi Credit\Car_Dealer\Tests\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Nadia\Desktop\CarDealership\Tests\bin\Debug\Tests.exe.config
+C:\Users\Nadia\Desktop\CarDealership\Tests\obj\Debug\Tests.exe
+C:\Users\Nadia\Desktop\CarDealership\Tests\obj\Debug\Tests.pdb
+C:\Users\Nadia\Desktop\CarDealership\Tests\bin\Debug\ApplicationInsights.config
+C:\Users\Nadia\Desktop\CarDealership\Tests\bin\Debug\roslyn\csc.exe
+C:\Users\Nadia\Desktop\CarDealership\Tests\bin\Debug\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Nadia\Desktop\CarDealership\Tests\bin\Debug\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Nadia\Desktop\CarDealership\Tests\bin\Debug\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Nadia\Desktop\CarDealership\Tests\bin\Debug\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Nadia\Desktop\CarDealership\Tests\bin\Debug\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Nadia\Desktop\CarDealership\Tests\bin\Debug\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Nadia\Desktop\CarDealership\Tests\bin\Debug\roslyn\System.Collections.Immutable.dll
+C:\Users\Nadia\Desktop\CarDealership\Tests\bin\Debug\roslyn\System.Reflection.Metadata.dll
+C:\Users\Nadia\Desktop\CarDealership\Tests\bin\Debug\roslyn\vbc.exe
+C:\Users\Nadia\Desktop\CarDealership\Tests\bin\Debug\roslyn\VBCSCompiler.exe
+C:\Users\Nadia\Desktop\CarDealership\Tests\bin\Debug\roslyn\VBCSCompiler.exe.config
+C:\Users\Nadia\Desktop\CarDealership\Tests\bin\Debug\Tests.exe
+C:\Users\Nadia\Desktop\CarDealership\Tests\bin\Debug\Tests.pdb
+C:\Users\Nadia\Desktop\CarDealership\Tests\bin\Debug\CarDealership.dll
+C:\Users\Nadia\Desktop\CarDealership\Tests\bin\Debug\EntityFramework.dll
+C:\Users\Nadia\Desktop\CarDealership\Tests\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Nadia\Desktop\CarDealership\Tests\bin\Debug\System.Web.Http.dll
+C:\Users\Nadia\Desktop\CarDealership\Tests\bin\Debug\System.Web.Http.WebHost.dll
+C:\Users\Nadia\Desktop\CarDealership\Tests\bin\Debug\System.Net.Http.Formatting.dll
+C:\Users\Nadia\Desktop\CarDealership\Tests\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Nadia\Desktop\CarDealership\Tests\bin\Debug\CarDealership.pdb
+C:\Users\Nadia\Desktop\CarDealership\Tests\bin\Debug\EntityFramework.xml
+C:\Users\Nadia\Desktop\CarDealership\Tests\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Nadia\Desktop\CarDealership\Tests\bin\Debug\System.Web.Http.xml
+C:\Users\Nadia\Desktop\CarDealership\Tests\bin\Debug\System.Web.Http.WebHost.xml
+C:\Users\Nadia\Desktop\CarDealership\Tests\bin\Debug\System.Net.Http.Formatting.xml
+C:\Users\Nadia\Desktop\CarDealership\Tests\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Nadia\Desktop\CarDealership\Tests\obj\Debug\Tests.csprojResolveAssemblyReference.cache
