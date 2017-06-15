@@ -1,0 +1,37 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
+    <script src="~/Scripts/angular.js"></script>
+    <script src="~/Scripts/angular-csp.css"> </script>
+    <script src="~/App/ApiScripts/CarDealershipModule.js"></script>
+    <script src="~/App/ApiScripts/CarModelsController.js"></script>
+    <script src="~/App/ApiScripts/ReportController.js"></script>
+    <style>
+        td,th {
+            text-align: center
+        }
+    </style>
+</head>
+
+<body>
+    <div ng-app="CarDealershipModule">       
+        <div ng-controller="ReportController">
+            <table class="table">
+                <tr>
+                    <th>Model</th>
+                    <th>Number of sold cars for this period</th>
+                    <th>Total amount of sales for period</th>
+                </tr>
+                <tr ng-repeat="report in reports">
+                    <td>{{report.CarModel}}</td>
+                    <td>{{report.NumberOfSoldCars}}</td>
+                    <td>{{report.TotalAmountOfSalesForModel}}</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+<script>
+</script>
+</body>
+</html>

@@ -60,9 +60,9 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Car_Dealer\CarDealership.csproj">
-      <Project>{d9aa4aae-b11c-411e-a014-747387c8f757}</Project>
-      <Name>CarDealership</Name>
+    <ProjectReference Include="..\CarDealershipService\CarDealershipService.csproj">
+      <Project>{835BB542-B700-4EA0-968B-55E4FA0A3CE9}</Project>
+      <Name>CarDealershipService</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
