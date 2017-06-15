@@ -20,5 +20,19 @@ namespace CarDealershipService.Controllers
             var report = ReportView.GetReportForPeriod(db, new DateTime(2017,05,01), new DateTime(2017, 06, 06));
             return report;
         }
+
+        // GET: api/Report/TotalValue
+        public decimal GetTotalAmountForPeriod()
+        {
+            var startDate = new DateTime(2017, 05, 01);
+            var endDate = new DateTime(2017, 06, 06);
+
+            var totalAmmount = db.Cars
+                .Where(x => x.SalesInfo.SalesDate >= startDate && x.SalesInfo.SalesDate <= endDate)
+                .Select(x => x.Price)
+                .Sum();
+
+            return totalAmmount;
+        }
     }
 }

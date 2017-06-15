@@ -5,7 +5,7 @@
     <script src="~/Scripts/angular.js"></script>
     <script src="~/Scripts/angular-csp.css"> </script>
     <script src="~/App/ApiScripts/CarDealershipModule.js"></script>
-    <script src="~/App/ApiScripts/CarModelsController.js"></script>
+    <script src="~/App/ApiScripts/TotalAmmountController.js"></script>
     <script src="~/App/ApiScripts/ReportController.js"></script>
     <style>
         td,th {
@@ -27,7 +27,14 @@
                     <td>{{report.CarModel}}</td>
                     <td>{{report.NumberOfSoldCars}}</td>
                     <td>{{report.TotalAmountOfSalesForModel}}</td>
+                </tr>            
+                <tfoot ng-controller="TotalAmmounController">
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td>{{totalAmmount}}</td>
                 </tr>
+                </tfoot>
             </table>
         </div>
     </div>
