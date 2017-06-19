@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tests", "Tests\Tests.csproj", "{C9568736-013E-441D-8E43-6C04F106ADFC}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RecordsForDatabase", "Tests\RecordsForDatabase.csproj", "{C9568736-013E-441D-8E43-6C04F106ADFC}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarDealershipService", "CarDealershipService\CarDealershipService.csproj", "{835BB542-B700-4EA0-968B-55E4FA0A3CE9}"
 EndProject

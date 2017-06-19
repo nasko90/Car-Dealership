@@ -17,7 +17,7 @@ namespace CarDealershipService.Controllers
         // GET: api/Report
         public ICollection<ReportView> GetReport()
         {
-            var report = ReportView.GetReportForPeriod(db, new DateTime(2017,05,01), new DateTime(2017, 06, 06));
+            var report = ReportView.GetReportForPeriod(db, new DateTime(2015,05,01), new DateTime(2017, 06, 06));
             return report;
         }
      

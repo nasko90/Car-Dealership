@@ -15,6 +15,7 @@
     <script src="~/App/ApiScripts/GenerateReport.js"></script>
     <script src="~/App/ApiScripts/toggleTable.js"></script>
     <script src="~/Scripts/FileSaver.min.js"></script>
+ 
 
     <style>
         html {
@@ -45,9 +46,9 @@
 
 <div align="center" ng-app="CarDealershipModule" ng-controller="ReportController" >   
     <button ng-click ="exportData()" onclick="toggleTable()">Generate report</button>
-    <div id="export">
+    <div id="export" style="visibility: hidden" >
         <br/>
-        <table id="reportTable">
+        <table id="reportTable" >
             <tr>
                 <th>Model</th>
                 <th>Number of sold cars for this period</th>
@@ -69,6 +70,7 @@
         </table>
     </div>        
      </div>
+
 
 <script type="text/javascript" src="~/App/ApiScripts/Daterangepicker.js"></script>
 
