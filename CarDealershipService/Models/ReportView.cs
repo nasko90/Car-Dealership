@@ -14,7 +14,7 @@ namespace CarDealershipService.Models
 
         public decimal TotalAmountOfSalesForModel { get; set; }
 
-        public static IQueryable GetReportForPeriod(CarDealershipContext db, DateTime startDate, DateTime enDate)
+        public static ICollection<ReportView> GetReportForPeriod(CarDealershipContext db, DateTime startDate, DateTime enDate)
         {
             var reportList =
                 from car in db.Cars
@@ -27,7 +27,7 @@ namespace CarDealershipService.Models
                     TotalAmountOfSalesForModel = grouped.Sum(x => x.Price) 
                 };
 
-            return reportList;
+            return reportList.ToList();
         }
     }
 }

@@ -58,6 +58,6 @@ C:\Users\Nadia\Desktop\Car Dealership\CarDealershipService\bin\System.Web.WebPag
 C:\Users\Nadia\Desktop\Car Dealership\CarDealershipService\bin\System.Web.WebPages.Deployment.xml
 C:\Users\Nadia\Desktop\Car Dealership\CarDealershipService\bin\System.Web.WebPages.Razor.xml
 C:\Users\Nadia\Desktop\Car Dealership\CarDealershipService\bin\Antlr3.Runtime.pdb
-C:\Users\Nadia\Desktop\Car Dealership\CarDealershipService\obj\Debug\CarDealershipService.csprojResolveAssemblyReference.cache
 C:\Users\Nadia\Desktop\Car Dealership\CarDealershipService\obj\Debug\CarDealershipService.dll
 C:\Users\Nadia\Desktop\Car Dealership\CarDealershipService\obj\Debug\CarDealershipService.pdb
+C:\Users\Nadia\Desktop\Car Dealership\CarDealershipService\obj\Debug\CarDealershipService.csprojResolveAssemblyReference.cache
