@@ -1,20 +1,13 @@
 ﻿<!DOCTYPE html>
 <html>
 <head>
-    <title>Sales report</title>
-    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
     <script src="~/Scripts/angular.js"></script>
     <script src="~/Scripts/angular-csp.css"> </script>
+    <script src="~/Scripts/FileSaver.min.js"></script>
     <script src="~/App/ApiScripts/CarDealershipModule.js"></script>
     <script src="~/App/ApiScripts/ReportController.js"></script>
-    <script type="text/javascript" src="//cdn.jsdelivr.net/jquery/1/jquery.min.js"></script>
-    <script type="text/javascript" src="//cdn.jsdelivr.net/momentjs/latest/moment.min.js"></script>
-    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/bootstrap/3/css/bootstrap.css"/>
-    <script type="text/javascript" src="//cdn.jsdelivr.net/bootstrap.daterangepicker/2/daterangepicker.js"></script>
-    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/bootstrap.daterangepicker/2/daterangepicker.css"/>
     <script src="~/App/ApiScripts/GenerateReport.js"></script>
     <script src="~/App/ApiScripts/toggleTable.js"></script>
-    <script src="~/Scripts/FileSaver.min.js"></script>
  
 
     <style>
@@ -31,62 +24,52 @@
             text-align: center;
             font-size: 18px;
             border: 1px solid black;
+            padding: 10px 30px;
         }
 
         h1, h2, h3 {
             text-align: center;
         }
+
+        input[type=button][disabled=disabled] {
+            opacity: 0.65;
+            cursor: not-allowed;
+        }
     </style>
 </head>
 
 <body>
-    <h1>Cars sold report</h1>
+    <h1>Sold cars report</h1>
     <h2>Choose period of time:</h2>
-    <h3><input type="text" name="daterange" style="width: auto"></h3>
 
-<div align="center" ng-app="CarDealershipModule" ng-controller="ReportController" >   
-    <button ng-click ="exportData()" onclick="toggleTable()">Generate report</button>
-    <div id="export" style="visibility: hidden" >
+    <div align="center" ng-app="CarDealershipModule" ng-controller="ReportController" > 
+        <h3>From <input type="date" id="startDate" ng-model="startDate" /> 
+        To <input type="date" id="endDate"  ng-model="endDate"/></h3>       
+       
+        <button ng-click ="exportData()" onclick="toggleTable()">Generate report</button>
+        <div id="export" style="visibility: hidden" >
         <br/>
-        <table id="reportTable" >
-            <tr>
+            <table id="reportTable" >
+                <tr>
                 <th>Model</th>
                 <th>Number of sold cars for this period</th>
                 <th>Total amount of sales for period</th>
-            </tr>
-            <tr ng-repeat="report in reports">
+              </tr>
+              <tr ng-repeat="report in reports">
                 <td>{{report.CarModel}}</td>
                 <td>{{report.NumberOfSoldCars}}</td>
                 <td>{{report.TotalAmountOfSalesForModel}}</td>
-            </tr>
-            <tfoot id="totalSum">
-            <tr>
-                <td colspan="2">
+             </tr>
+             <tfoot id="totalSum">
+              <tr>
+                  <td colspan="2">
                     <h2>Total amount of sold cars:</h2></td>
-                <td>
-                    <h2>{{getTotalSales()}}</h2></td>
-            </tr>
+                   <td>
+                   <h2>{{getTotalSales()}}</h2></td>
+             </tr>
             </tfoot>
-        </table>
-    </div>        
-     </div>
-
-
-<script type="text/javascript" src="~/App/ApiScripts/Daterangepicker.js"></script>
-
-<style>
-    input[type=button][disabled=disabled] {
-        opacity: 0.65;
-        cursor: not-allowed;
-    }
-
-    table tr th {
-        padding: 10px 30px;
-    }
-
-    table tr td {
-        padding: 10px 30px;
-    }
-</style>
+         </table>
+        </div>        
+    </div>
 </body>
 </html>

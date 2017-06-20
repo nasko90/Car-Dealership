@@ -49,7 +49,7 @@ namespace Tests
                 var car = new Car
                 {
                     VIN = RandomString(17),
-                    Price = randomModel.Next(4000, 65000),
+                    Price = randomModel.Next(4000, 45000),
                     CarModel = carDealershipContext.CarModels.Find(randomModel.Next(1, 16)),
                     YearProduced = randomModel.Next(2002, 2017),                                       
                 };

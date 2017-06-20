@@ -209,7 +209,6 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="App\ApiScripts\CarDealershipModule.js" />
-    <Content Include="App\ApiScripts\Daterangepicker.js" />
     <Content Include="App\ApiScripts\GenerateReport.js" />
     <Content Include="App\ApiScripts\ReportController.js" />
     <Content Include="App\ApiScripts\toggleTable.js" />
@@ -1094,6 +1093,7 @@
     <Content Include="Scripts\i18n\angular-locale_zh.js" />
     <Content Include="Scripts\i18n\angular-locale_zu-za.js" />
     <Content Include="Scripts\i18n\angular-locale_zu.js" />
+    <Content Include="Scripts\uibootstrap.js" />
     <Content Include="Scripts\xlsx.core.min.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
     <Content Include="Scripts\jquery-1.10.2.min.js" />
