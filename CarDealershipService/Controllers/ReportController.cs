@@ -14,10 +14,12 @@ namespace CarDealershipService.Controllers
     {
         private CarDealershipContext db = new CarDealershipContext();
 
-        // GET: api/Report
-        public ICollection<ReportView> GetReport()
+        // GET: api/Report?startDate={startDate}&endDate={endDate}
+        public ICollection<ReportView> GetReport(string startDate, string endDate)
         {
-            var report = ReportView.GetReportForPeriod(db, new DateTime(2015,05,01), new DateTime(2017, 06, 06));
+            DateTime start = DateTime.Parse(startDate);
+            DateTime end = DateTime.Parse(endDate);
+            var report = ReportView.GetReportForPeriod(db, start, end);
             return report;
         }
      
