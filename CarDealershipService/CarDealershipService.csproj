@@ -202,9 +202,6 @@
     <Compile Include="Models\Context\CarDealershipContext.cs" />
     <Compile Include="Models\Database Models\SaleInfo.cs" />
     <Compile Include="Models\ReportView.cs" />
-    <Compile Include="Models\Veiw Models\CarModelsView.cs" />
-    <Compile Include="Models\Veiw Models\CarView.cs" />
-    <Compile Include="Models\Veiw Models\SaleInfoView.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
